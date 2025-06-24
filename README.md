@@ -33,6 +33,9 @@ Image Conditions: The dataset was collected under diverse conditions and from va
 
 The Faster R-CNN model was trained for 20 epochs using SGD optimizer (with 0.9 momentum, 0.0005 weight decay, 0.01 initial learning rate) on Google Colaboratory's GPU. Performance was monitored using validation data, with mAP, Precision, and Recall as key metrics.
 
+* **Model Training & Exploration Notebook:** [https://github.com/nurulkhazanah/Deteksi-plat-kendaraan/blob/main/Nuka_CarPlateDetection.ipynb](https://github.com/nurulkhazanah/Deteksi-plat-kendaraan/blob/main/Nuka_CarPlateDetection.ipynb)
+    * `Nuka_CarPlateDetection.ipynb` (This file contains detailed steps for model training, data preprocessing, and initial explorations.)
+
 ## 📥 Pre-trained Model
 
 The trained Faster R-CNN model (`frcnn.pth`) has a large file size and cannot be directly uploaded to GitHub. You can download it via the following Google Drive link:
